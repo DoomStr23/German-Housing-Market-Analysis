@@ -18,7 +18,7 @@ df = pd.read_csv(csv_file, encoding="utf-8")
 
 print(f"Loaded {len(df)} rows and {len(df.columns)} columns.")
 
-# 4. Clean up a 
+# 4. Clean up a bit
 df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]  # clean column names
 df = df.fillna(value=pd.NA)  # replace empty values with NA
 
