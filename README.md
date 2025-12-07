@@ -13,12 +13,11 @@ The data comes from [Kaggle - Apartment Rental Offers in Germany](https://www.ka
 
 ## Project Structure
 
-├── immo_data.csv # Raw dataset from Kaggle
-├── import_data.py # Script to import CSV data into PostgreSQL
-├── explore_data.ipynb # Jupyter notebook for data exploration and visualization
-├── analysis_queries.sql # SQL queries for data cleaning and analysis
-└── cleaned_rent_data.csv # Processed dataset exported from database
-
+- `immo_data.csv` - Raw dataset from Kaggle
+- `import_data.py` - Script to import CSV data into PostgreSQL
+- `explore_data.ipynb` - Jupyter notebook for data exploration and visualization
+- `SQL_Queries.sql` - SQL queries for data cleaning and analysis
+- `cleaned_rent_data.csv` - Processed dataset exported from database
 
 
 ## Technologies Used
@@ -40,7 +39,6 @@ The data comes from [Kaggle - Apartment Rental Offers in Germany](https://www.ka
 
 ### Installing required Python packages
 
-```bash
 pip install pandas sqlalchemy psycopg2-binary seaborn matplotlib jupyter scipy
 
 ### Set up PostgreSQL database
