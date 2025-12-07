@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 # 1. Database connection details
 DB_USER = "postgres"      
-DB_PASS = "yhai3ia8Do!"
+DB_PASS = "XXXXXXXX"
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "german_housing_db"
